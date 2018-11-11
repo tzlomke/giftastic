@@ -71,14 +71,4 @@ $("#submit").on("click", function (event){
     event.preventDefault();
     topics.push($("#bandInput").val().trim());
     create();
-})
-
-
-// Bonus:
-// Make mobile responsive
-// Allow users to request additional gifs (appends 10 new gifs, does not overwrite existing gifs)
-// List additional metadata in clean, readable format
-// Integrate this search with addtional APIs (OMDB, bandsintown, etc.)
-// Allow users to add their favorite gifs to a favorites section
-// This should persist when they select or add a new topic
-// **Challenge** make favorites section persist even when the user reloads the page
+});
