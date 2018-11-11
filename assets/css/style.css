@@ -1,6 +1,8 @@
 html,
 body {
     height: 100%;
+    font-family: 'Righteous', cursive;
+    
 }
 
 body {
@@ -13,6 +15,11 @@ body {
     height: 100%;
 }
 
+#button-row {
+    height: auto;
+    margin-bottom: 10px;
+}
+
 .main {
     height: 100%;
     padding-top: 10px;
@@ -21,17 +28,29 @@ body {
     justify-content: center;
 }
 
-.sidebar {
+.gif-div {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.band-button {
+    font-size: 12px;
+    color: #C64F23;
     background-color: #00FFAE;
 }
 
-.gif-container {
-    height: 100%;
-    min-height: 100%;
+#submit {
+    font-size: 12px;
+    color: #C64F23;
     background-color: #FFD232;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+}
+
+.sidebar {
+    padding-top: 10px;
+    background-color: #00FFAE;
+}
+
+#gifs {
+    margin-top: 10px
 }
 
 button {

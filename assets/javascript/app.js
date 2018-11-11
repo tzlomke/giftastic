@@ -1,5 +1,19 @@
 // Topics Array (uses url encoding to concatenate so that phrases can be passed into giphy API queryURL)
-var topics = [ "Bright Eyes", "Boards of Canada", "Flying Lotus", "LCD Soundsystem", "Neon Indian", "Radiohead", "Tame Impala", "Flaming Lips", "MGMT", "Interpol", "Kurt Vile"];
+var topics = [
+    "Joy Division",
+    "New Order",
+    "The Smiths",
+    "The Cure",
+    "Tears for Fears",
+    "Echo and the Bunnymen",
+    "Soft Cell",
+    "A Flock of Seagulls",
+    "Talking Heads",
+    "The Human League",
+    "Siouxsie and the Banshees",
+    "Sonic Youth",
+    "Cocteau Twins",
+];
 
 // Create Buttons
 function create() {
