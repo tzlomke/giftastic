@@ -1,5 +1,5 @@
 // Topics Array (uses url encoding to concatenate so that phrases can be passed into giphy API queryURL)
-var topics = [ "Bright Eyes", "Boards of Canada", "Flying Lotus", "LCD Soundsystem", "Neon Indian", "Radiohead", "Tame Impala"];
+var topics = [ "Bright Eyes", "Boards of Canada", "Flying Lotus", "LCD Soundsystem", "Neon Indian", "Radiohead", "Tame Impala", "Flaming Lips", "MGMT", "Interpol", "Kurt Vile"];
 
 // Create Buttons
 function create() {
@@ -32,11 +32,11 @@ $(document).on("click", ".band-button", function () {
         var results = response.data;
 
         for (var i = 0; i < results.length; i++) {
-            var gifDiv = $("<div class=col-6>");
+            var gifDiv = $("<div class='col-6 gif-div'>");
 
             var rating = results[i].rating;
 
-            var p = $("<p class='rating'>").text("Rating: " + rating);
+            var p = $("<p class='rating'>").text("Rating: " + rating.toUpperCase());
 
             var bandImage = $("<img width=300 height=200>");
             bandImage.attr("src", results[i].images.original_still.url).attr("class", "gif");

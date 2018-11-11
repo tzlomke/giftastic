@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFD232;
+    justify-content: center;
+}
+
+.sidebar {
+    background-color: #00FFAE;
+}
+
+.gif-container {
+    height: 100%;
+    min-height: 100%;
+    background-color: #FFD232;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 2px;
+    padding: 5px;
+}
