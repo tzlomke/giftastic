@@ -46,7 +46,7 @@ $(document).on("click", ".band-button", function () {
         var results = response.data;
 
         for (var i = 0; i < results.length; i++) {
-            var gifDiv = $("<div class='col-6 gif-div'>");
+            var gifDiv = $("<div class='col-12 col-md-6 gif-div'>");
 
             var rating = results[i].rating;
 
