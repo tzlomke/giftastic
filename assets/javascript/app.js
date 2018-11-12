@@ -32,9 +32,6 @@ create()
 // Add gifs upon button click
 $(document).on("click", ".band-button", function () {
 
-    // Empty gifs from previous click
-    $("#gifs").empty();
-
     var band = $(this).attr("data-band");
 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + band + "&api_key=2SHIKszd8TGGB2znEV0B8qzV0RI6YQqt&limit=10";
@@ -66,6 +63,7 @@ $(document).on("click", ".band-button", function () {
     })
 });
 
+// Animates static gifs upon click, pauses upon subsequent click
 $(document).on("click", ".gif", function () {
 
     var state = $(this).attr("data-state");
