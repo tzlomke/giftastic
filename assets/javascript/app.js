@@ -83,4 +83,5 @@ $("#submit").on("click", function (event){
     event.preventDefault();
     topics.push($("#bandInput").val().trim());
     create();
+    $("#bandInput").val("Add a band");
 });
